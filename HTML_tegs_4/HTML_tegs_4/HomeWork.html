@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Домашнее задание №1</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <!--Желательно давать всему имена и tabindex.-->
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Имя</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Пароль</p>
+                <input type="password">
+            </div>
+            <div>
+                <p>Телефон</p>
+                <input type="tel">
+            </div>
+            <div>
+                <p>Пол</p>
+                <p><input checked type="radio" name="sex" value="male">Мужской</p>
+                <p><input type="radio" name="sex" value="female">Женский</p>
+            </div>
+            <div>
+                <p>Имущество</p>
+                <p><input checked type="checkbox" name="bike">Велик</p>
+                <p><input type="checkbox" name="car">Машина</p>
+                <p><input disabled type="checkbox" name="home">Квартира</p>
+            </div>
+            <div>
+                <p>Дополнительная информация</p>
+                <textarea name="text"></textarea>
+            </div>
+            <div>
+                <p>Прикрепить фото</p>
+                <p><input type="file" name="photo"></p>
+            </div>
+            <div>
+                <p>Любимый цвет</p>
+                <select name="color">
+                    <option value="red">Красный</option>
+                    <option value="yellow">Жёлтый</option>
+                    <option value="blue">Голубой</option>
+                </select>
+            </div>
+            <div>
+                <p>Действия</p>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+    </body>
+</html>
