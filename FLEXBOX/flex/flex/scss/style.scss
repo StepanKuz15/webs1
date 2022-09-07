@@ -87,9 +87,10 @@ body {
 }
 li {
     font-size: 20px;
-    padding: 5px 5px 5px 0;
+    padding: 5px 5px 5px 5px;
     &:before {
-        background: url("img/icons/icon.png");
+        margin-right: 5px;
+        content: url("/img/icons/icon.png");
     }
 }
 h1 {
