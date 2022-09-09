@@ -90,6 +90,7 @@ h6 {
 /*Обнуление*/
 body {
   font-family: "Arial", sans;
+  height: 1800px;
 }
 
 .header {
@@ -146,15 +147,16 @@ h1 {
   line-height: 1.2;
 }
 
+.column {
+  background: #f2f2f2;
+  margin: 30px 0;
+}
 .column h2 {
+  padding: 30px 0;
   text-align: center;
   font-size: 30px;
   line-height: 1.2;
   color: #445161;
-}
-
-.column {
-  margin: 30px 0;
 }
 
 .column-content {
@@ -165,13 +167,14 @@ h1 {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-bottom: 20px;
 }
 .column-content .column-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 600px;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .column-content .column-card .column-text {
   display: -webkit-box;
@@ -195,4 +198,71 @@ h1 {
   color: #333;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.three h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #445161;
+}
+
+.three-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.three-cards .three-card {
+  background: #495261;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 300px;
+  height: 500px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.three-cards .three-card h3 {
+  margin: 12px auto;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #fff;
+}
+.three-cards .three-card .three-white {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: solid 2px #495261;
+  font-size: 40px;
+  line-height: 0.75;
+  color: #495261;
+  margin-bottom: 20px;
+}
+.three-cards .three-card p {
+  width: 85%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.71;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.three-cards .three-card form {
+  border-radius: 5px;
+  width: 85%;
+  margin: 20px auto;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
 }
